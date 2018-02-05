@@ -6,7 +6,7 @@ Minimize client side javascript runtime. All non-esential features have been rem
 ## 2)
 Using PHP on the serverside, HTML/Javascript is sent to the client to display long and complicated hashes and encrypted strings. These codes cannot be edited in the client browser.
 ## Basic Use:
-``
+```
 <div id="qrcode"></div>
 <script type="text/javascript">
 var qrcode = new QRCode(document.getElementById("qrcode"), {
@@ -18,12 +18,12 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 	correctLevel : QRCode.CorrectLevel.H
 });
 </script>
-``
+```
 ## Optional methods:
-``
+```
 qrcode.clear(); // clear the code.
 qrcode.makeCode("http://naver.com"); // make another code.
-``
+```
 ## Browser Compatibility
 IE6~10, Chrome, Firefox, Safari, Opera, Mobile Safari, Android, Windows Mobile, ETC.
 
