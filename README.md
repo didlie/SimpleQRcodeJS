@@ -22,7 +22,7 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 ## Optional methods:
 ```
 qrcode.clear(); // clear the code.
-qrcode.makeCode("http://naver.com"); // make another code.
+qrcode.makeCode("didlie do"); // make another code.
 ```
 ## Browser Compatibility
 IE6~10, Chrome, Firefox, Safari, Opera, Mobile Safari, Android, Windows Mobile, ETC.
